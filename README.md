@@ -1,43 +1,62 @@
-# Online-Shopping-Intention-Analysis-with-Python
-🏍️ Online Shopping Intention Analysis with Python
+ 🛍️ Online Shopping Intention Analysis with Python
 
 
 
+> Μία αναλυτική προσέγγιση για την κατανόηση της αγοραστικής πρόθεσης των χρηστών σε ένα ηλεκτρονικό κατάστημα μέσω Εξερευνητικής Ανάλυσης Δεδομένων (EDA), clustering και μοντέλα μηχανικής μάθησης (ML).
 
-Mία αναλυτική προσέγγιση για την κατανόηση της αγοραστικής πρόθεσης των χρηστών σε ένα ηλεκτρονικό κατάστημα μέσω EDA, clustering και ML.
+---
 
-📌 Περιγραφή
+## 📌 Περιγραφή
 
-Αυτό το έργο αναλύει το Online Shoppers Purchasing Intention Dataset με σκόπο:
+Αυτό το έργο αναλύει το [Online Shoppers Purchasing Intention Dataset](https://www.kaggle.com/datasets/rohitrox/online-shoppers-intention) με σκοπό:
 
-Κατανόηση συμπεριφοράς των επισκεπτών.
+- Την κατανόηση της συμπεριφοράς των επισκεπτών.
+- Τον εντοπισμό ομάδων επισκεπτών (clusters).
+- Την εκπαίδευση ML μοντέλων για την πρόβλεψη πρόθεσης αγοράς.
 
-Εντοπισμός clusters χρηστών.
+---
 
-Εκπαίδευση ML για πρόβλεψη αγοραστικής πρόθεσης.
+## 🧰 Τεχνολογίες
 
-🧰 Χρησιμοποιημένες Τεχνολογίες
+- Python 3.x
+- pandas, numpy
+- matplotlib, seaborn, plotly
+- scikit-learn, xgboost
+- SHAP, GridSearchCV
 
-Python 3.x
+---
 
-pandas, numpy
+## 🧪 Στάδια Ανάλυσης
 
-matplotlib, seaborn, plotly
+### 1. Φόρτωση & Επεξεργασία Δεδομένων
+- Καθαρισμός και μετατροπές χαρακτηριστικών
 
-scikit-learn, xgboost
+### 2. Εξερευνητική Ανάλυση Δεδομένων (EDA)
+- Visualizations (distributions, συσχετίσεις)
 
-SHAP, GridSearchCV
+### 3. Clustering
+- Elbow method
+- K-Means clustering βάσει Duration και Bounce Rate
 
-📊 Σάτια Ανάλυσης
+### 4. Μοντέλα ML
+- XGBoost, Random Forest, SVM
+- Αξιολόγηση μέσω Confusion Matrix, Accuracy
 
-Φόρτωση & Επεξεργασία
+### 5. Ερμηνεία Προβλέψεων
+- SHAP για ερμηνεία χαρακτηριστικών και επιρροής
 
-EDA (Exploratory Data Analysis)
+---
 
-Clustering (K-Means)
+---
 
-ML: RandomForest, XGBoost, SVM
+## ▶️ Εκτέλεση
 
-Βελτιστοποίηση & Αξιολόγηση
 
-Ερμηνεία Προβλέψεων με SHAP
+
+📊 Dataset
+Kaggle - Online Shoppers Purchasing Intention Dataset
+
+📬 Επικοινωνία
+📧 Email: -
+
+💡 Αν σου φάνηκε χρήσιμο, κάνε ⭐ στο repo!
