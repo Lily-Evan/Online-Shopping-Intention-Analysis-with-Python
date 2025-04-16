@@ -55,6 +55,7 @@ Identifying key features influencing purchase behavior
 The dataset used is available on Kaggle:
 
 📎 Online Shoppers Intention Dataset
+https://www.kaggle.com/datasets/henrysue/online-shoppers-intention
 
 📂 Local path: /kaggle/input/online-shoppers-intention/online_shoppers_intention.csv
 
